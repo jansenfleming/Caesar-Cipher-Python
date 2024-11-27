@@ -36,6 +36,6 @@ def caesar_shift(message, shift):
     
     print(result)
 
-user_message = input("Message to encrypty:")
+user_message = input("Message to encrypt:")
 user_shift_key = int(input("Shift Key (Integer)"))
 caesar_shift(user_message, user_shift_key)  
